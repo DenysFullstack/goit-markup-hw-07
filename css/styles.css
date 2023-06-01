@@ -62,3 +62,129 @@ body {
     color: #434455;
     background-color: var(--body-color)
 }
+
+.container {
+    max-width: 428px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* =============Header=============== */
+
+.menu,
+.contacts {
+    display: none;
+}
+
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.page-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-menu-open-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 24px;
+    padding-right: 19px;
+    background-color: var(--body-color);
+}
+
+.mobile-menu-container {
+    position: relative;
+    padding-top: 40px;
+}
+
+.mobile-menu-close-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 24px;
+    right: 23px;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #E7E9FC;
+    border: 1px solid #2E2F42;
+}
+
+.mobile-menu-list {
+    flex-direction: column;
+    align-items: start;
+    padding-top: 40px;
+}
+
+.mobile-menu-link {
+    padding-bottom: 40px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.current {
+    color: #404BBF;
+}
+
+.mobile-menu-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: auto;
+    margin-bottom: 48px;
+    gap: 40px;
+}
+
+.mobile-menu-tel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #4D5AE5;
+}
+
+.mobile-menu-malito {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.mobile-menu-social-list {
+    padding-bottom: 40px;
+}
