@@ -534,6 +534,9 @@ section {
         justify-content: center;
         gap: 24;
     }
+    .team-members {
+        width: calc((100% - 72px) / 4);
+    }
 }
 
 /* .team-members {
