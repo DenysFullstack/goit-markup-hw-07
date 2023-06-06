@@ -709,7 +709,7 @@ section {
 .customers-list {
     justify-content: center;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 72px 16px;
 }
 
 .customer-list-item {
@@ -738,8 +738,7 @@ section {
 
 @media screen and (min-width: 768px) {
     .customers-list {
-        column-gap: 24px;
-        row-gap: 72px;
+        gap: 72px 24px;
     }
 
     .customer-list-item {
