@@ -1355,3 +1355,27 @@ section {
         padding: 72px 24px 24px 24px;
     }
 }
+
+/* ========= Portfolio ============= */
+
+/* Header */
+
+/* .page-portfolio-header {
+
+} */
+
+.portfolio-header {
+    padding: 24px 16px 22px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondary-page-text {
+    display: none;
+}
+
+.secondary-page-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+}
